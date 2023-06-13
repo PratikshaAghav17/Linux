@@ -1,0 +1,84 @@
+Linux Command Assignment
+Assignment:
+The objective of this assignment is to familiarize yourself with the Linux command line by performing common tasks such as navigating the filesystem, manipulating files, and viewing file content.
+Instructions:
+Open a terminal on your Linux machine. If you don't have access to a Linux machine, you can use an online Linux terminal emulator or a tool like Git Bash on Windows.
+Perform the following tasks and write down the command used for each task:
+
+
+Create a new directory called linux-assignment in your home directory.
+mkdir linux-assignment
+The mkdir stands for 'make directory'. This command creates a new directory in the system.
+
+
+Navigate into the linux-assignment directory.
+cd linux-assignment
+This command will change the current working directory to linux-assignment directory.
+
+
+Create a new file called instructions.txt.
+touch instructions.txt
+The touch command is the most commonly used command for creating a new file in Linux. To create a new file in the current directory, you need to run the touch command followed by the name of the file.
+
+
+Write "Hello, World!" into instructions.txt using a command-line text editor like nano, vi, or emacs.
+nano instructions.txt
+It is a command-line text editor. It is used to write the text into the file.
+
+
+Display the contents of instructions.txt using a command.
+cat instructions.txt
+We use the cat command to display the contents of one or more files on your screen.
+
+Rename instructions.txt to greetings.txt.
+mv instructions.txt greetings.txt
+mv command is use to rename the file.
+
+
+Copy greetings.txt to a new file called salutations.txt.
+cp greetings.txt salutations.txt
+cp this command copies the content of one file into another file.
+
+Delete greetings.txt.
+rm greetings.txt
+rm i.e., remove command will remove the file.
+
+
+Create a new directory called archive.
+mkdir archive
+The mkdir stands for 'make directory'. This command creates a new directory in the system.
+
+
+Move salutations.txt to the archive directory.
+mv salutations.txt archive/
+mv command is use to rename the file. This will move all the content of salutations.txt to archive
+
+
+Display the current working directory to confirm that salutations.txt is now in the archive directory.
+Pwd
+This command is used to show the current working directory.
+Navigate back to the linux-assignment directory and create three new empty files named file1.txt, file2.txt, and file3.txt.
+cd linux-assignment
+touch file1.txt file2.txt file3.txt
+This command will change the current working directory, to create a new file in the current directory, you need to run the touch command followed by the name of the file.
+
+
+Display the list of files in the linux-assignment directory to confirm the creation of the new files.
+Ls 
+The 'ls' command is used to list files and directories. The contents of your current working directory
+
+
+Create a new text file in your home directory named linux-assignment-commands.txt and write down all the commands you used in this assignment.
+touch linux-assignment-commands.txt
+nano linux-assignment-commands.txt
+To create a new file in the current directory, you need to run the touch command followed by the name of the file. Nano is used to write the text into the file
+
+
+
+Share your linux-assignment-commands.txt file with your instructor or team lead for review.
+Evaluation Criteria:
+Your assignment will be evaluated based on:
+Correctness of the commands.
+Completeness of the assignment. Make sure all tasks have been performed correctly.
+Understanding of the command line. Be ready to explain what each command does!
+Please remember, the goal of this assignment is to help you get comfortable with the Linux command line, so don't hesitate to try out different commands and explore further!
